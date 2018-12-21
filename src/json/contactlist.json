@@ -1,0 +1,16 @@
+[
+  {
+    "id": 0,
+    "name": "Haakon Gierloff",
+    "title": "Developer, website",
+    "email": "hagi@equinor.com"
+  },
+
+  {
+    "id": 1,
+    "name": "John Ove Thorsplass",
+    "title": "Coordinator, website",
+    "email": "joth@equinor.com"
+  }
+
+]

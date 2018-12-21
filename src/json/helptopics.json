@@ -1,0 +1,56 @@
+[
+  {
+    "id": 0,
+    "topic": "What is this website?",
+    "text": "This is a webservice for converting files, mainly for Equinor."
+  },
+
+  {
+    "id": 1,
+    "topic": "How does it work?",
+    "text": "This website is just an interface, a connection point to the converters. The converters are accessed through APIs by sending a desired file/files. The files are processed server-side, then returned converted."
+  },
+
+  {
+    "id": 2,
+    "topic": "How do I use this service?",
+    "text": "To use a converter, simply go to Home at the navbar on top, and select the desired converter from the dropdown-list. You may then upload the file you want to convert, and click 'Convert'"
+  },
+
+  {
+    "id": 3,
+    "topic": "How do I upload a file?",
+    "text": "In the field at the left tile, you can either drag and drop a file, several files or a folder. You can also click the field, and select a file/files that will be converted."
+  },
+
+  {
+    "id": 4,
+    "topic": "All tiles are unclickable, and show a not-allowed-sign!",
+    "text": "Remember to choose a converter before you start converting. If this doesn't help, your browser might not support some of the frameworks used to build this website. Switch browser, and try again."
+  },
+
+  {
+    "id": 5,
+    "topic": "The converter doesn't work",
+    "text": "If your file/files won't be converted or isn't converted the way you expected, and the sent filetype is correct, there might be an issue with the converter API. Contact the people responsible for maintaining the API."
+  },
+
+  {
+    "id": 6,
+    "topic": "Are the files stored anywhere?",
+    "text": "A copy of your files are only stored locally for the short amount of time you are using the converter. If you press 'Clear', 'Reset' or close your browser, the copies stop existing."
+  },
+
+  {
+    "id": 7,
+    "topic": "Is it safe to send the files to a converter?",
+    "text": "The transfer should be protected by TLS (you can check this at the left side of the adress bar. A padlock means it is protected), and as long as you dont have any malware on your computer, it should be 100% untracable. Still, the API might store your files or extract extra information. Be sure you can trust the converter, and don't send files with information not related to the converter. It is also adviced to use common sense, and not send files while connected to an unsafe network."
+  },
+
+  {
+    "id": 8,
+    "topic": "There is an error on this website",
+    "text": "Please contact one of the responsible people by clicking 'Contact' in the navbar at the top of the website. Details should be listed there"
+  }
+
+]

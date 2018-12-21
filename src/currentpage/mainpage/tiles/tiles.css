@@ -1,0 +1,259 @@
+.content-animation {
+    opacity: 1;
+    animation: fade 1000ms;
+}
+    @keyframes fade {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+
+
+#tile-upload {
+    height: 540px;
+    width: 874px;
+    background-color: #D9EAEB;
+    border-radius: 10px;
+    margin: 20px 15px 0px 15px;
+    padding: 10px;
+    font-size: 18px;
+    position: relative;
+    transition: all 500ms ease;
+}
+    #tile-upload.active {
+    }
+
+    #tile-upload.inactive {
+        background-color: #F2F8F8;
+    }
+
+    #tile-upload.finished {
+        height: 500px;
+        width: 400px;
+        margin: 40px 15px 0px 15px;
+        padding: 20px;
+        background-color: #F2F8F8;
+    }
+
+
+
+#tile-convertstatus {
+    height: 540px;
+    width: 874px;
+    background-color: #D9EAEB;
+    border-radius: 10px;
+    margin: 20px 33px 0px 33px;
+    padding: 10px;
+    font-size: 18px;
+    position: relative;
+    transition: all 500ms ease;
+}
+
+    #tile-convertstatus.active {
+    }
+
+    #tile-convertstatus.inactive {
+        height: 500px;
+        width: 400px;
+        margin: 40px 33px 0px 33px;
+        padding: 20px;
+        background-color: #F2F8F8;
+    }
+
+
+
+#tile-result {
+    height: 540px;
+    width: 874px;
+    background-color: #D9EAEB;
+    border-radius: 10px;
+    margin: 20px 15px 0px 15px;
+    padding: 10px;
+    font-size: 18px;
+    position: relative;
+    transition: all 500ms ease;
+}
+
+    #tile-result.active {
+    }
+
+    #tile-result.inactive {
+        height: 500px;
+        width: 400px;
+        margin: 40px 15px 0px 15px;
+        padding: 20px;
+        background-color: #F2F8F8;
+    }
+
+
+
+.dnd-field {
+    height: 400px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #F2F8F8;
+    border-radius: 10px;
+    margin: 20px;
+    align-items: center;
+}
+
+.dnd-field-disabled {
+    height: 400px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    align-items: center;
+}
+
+.dnd-field-complete {
+    height: 364px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+
+.dnd-file {
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin: 0px !important;
+    border: 0px !important;
+    font-size: 15px;
+}
+
+.dnd-file-icons {
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin: 0px !important;
+    border: 0px !important;
+    font-size: 15px;
+    color: #D9EAEB;
+}
+
+
+
+.loader-field {
+    vertical-align: middle;
+    height: 386px;
+    padding-top: 100px;
+}
+
+.loader-field-disabled {
+    vertical-align: middle;
+    height: 356px;
+    padding-top: 100px;
+}
+
+.equinor-spinner {
+    width: 250px;
+    height: 250px;
+    margin-top: -20px;
+    background: url('../../../images/equinor-spinner-250px.png') center;
+    animation: spinner 0.6s steps(12) infinite;
+    -webkit-animation: spinner 0.6s steps(12) infinite;
+}
+    @keyframes spinner {
+        0% {
+            background-position: -3000px;
+        }
+
+        100% {
+            background-position: 0;
+        }
+    }
+
+    @-webkit-keyframes spinner {
+        0% {
+            background-position: -3000px;
+        }
+
+        100% {
+            background-position: 0;
+        }
+    }
+
+
+
+.complete-field {
+    height: 440px;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.complete-field-disabled {
+    height: 404px;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+
+.tile-button {
+    width: 200px;
+    margin: 0% 5%;
+    border-radius: 10px;
+    background-color: #007079;
+    height: 54px;
+}
+
+.tile-button-disabled {
+    width: 90%;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    background-color: #007079;
+}
+
+.report-button {
+    margin-left: -60px !important;
+}
+
+
+
+.icon {
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 50px 0px;
+    border: 0px;
+    font-size: 250px;
+    color: #D9EAEB;
+}
+
+.icon-convertstatus {
+    margin: 71px 0px 89px 0px !important;
+    border: 0px !important;
+}
+
+.icon-result {
+    margin: 71px 0px 83px 0px !important;
+    border: 0px !important;
+}
+
+.icon-emerge-animation {
+    animation: grow-left 500ms ease;
+}
+    @keyframes grow-left {
+        0% {
+            opacity: 0;
+            transform: translateX(-300px) scaleX(0);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateX(0) scaleX(1);
+        }
+    }

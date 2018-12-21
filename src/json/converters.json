@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "name": "GC-NPD-95 to Excel GeochemDB Load Format Converter",
+    "api": "http://localhost:65266/api/singleconverter",
+    "route": "/geochem",
+    "flavortext": "This text should consist of a general explanation of the converter's purpose",
+    "uploadtype": ".txt .asc",
+    "downloadtype": ".xlsx",
+    "multiupload": false
+  },
+  {
+    "id": 1,
+    "name": "Test Converter",
+    "api": "http://localhost:3000",
+    "route": "/test",
+    "flavortext": "This text should consist of a general explanation of the converter's purpose",
+    "uploadtype": ".txt",
+    "downloadtype": ".pdf",
+    "multiupload": false
+  }
+]
