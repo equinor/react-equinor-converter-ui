@@ -1,16 +1,14 @@
 What is this?
 In short, this is a webapplication for handling sending files to an API for conversion. The interface is designed to be simple and easy to use, and it handles single-, multiple- and folder uploads. The interface can have several different converters implemented, and switch between them through a dropdown menu.
--
--
+
 What framework is it using?
 This is a React-project, so everything is based on JSX. You will need a compiler to run the code, and I used Create-React-App for this (details at the bottom).
--
--
+
 How does it work?
 After a user has chosen a desired converter, he/she may either click or drag-and-drop the files which should be converted. After clicking “Convert”, the files are sent to the desired API, and the webapplication waits for one or several converted files to be returned. These can then be downloaded by clicking “download”. 
 How can new converters be added?
--
--
+
+
 All converters are handled in the json-file “converters”. Here you must specify certains parameters for the converter to work:
 Id (must be unique)
 
